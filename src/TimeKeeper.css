@@ -1,0 +1,28 @@
+.time-keeper {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.time-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.current-time {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: 'Courier New', monospace;
+}
+
+.current-date {
+  font-size: 1.5rem;
+  color: #f0f0f0;
+  font-weight: 300;
+}
